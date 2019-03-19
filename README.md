@@ -1,4 +1,4 @@
-# flutter_birb
+# flutter_birb [![Build Status](https://travis-ci.org/TechGeekD/flutter_birb.svg?branch=master)](https://travis-ci.org/TechGeekD/flutter_birb)
 
 A new Flutter application.
 
