@@ -21,12 +21,12 @@ script:
   - ./flutter/bin/flutter $COMMAND
 cache:
   directories:
-  - $HOME/.pub-cache
+    - $HOME/.pub-cache
 notifications:
   email: false
   slack:
     rooms:
-      - secure: BTvXDiZxjReOM2Cbl20LwvrbaRzmhwUJKhzzwoNSToSLhm8tFvS+vwtRt+MRTZeDEAS6Jt6w6mwWUW9jxzvlET9PoCTVlmpYfINCLu8ihfzw5geuFFkzpBh12zdlvvpCYKR6pG7uTrKLoAOC+Ejef2cbpPWUSUSG2uvAOAIuO4C0tlpiqXmQk2kMPaY2atnbgVV1HCtKw8Pz4WhxiJsAyuAdlQt7Y+9pohP4qnw3qNaKQ1Q9YoYnE4arKFKxt0RRvXTuuikdiZcd9P8rYLqu0ln7ZK32SAmLJtU9BOKrFtqZbtQkNfhi0Xmuqhfzv1DGGWLzjgUjquL+8K02Cc/Dv+bkNC2FAkWu/tQhdV1I6Nuu4KLip3S57YIKr2vbrSrf6IlAK1p4+IX5SPrVSnr/KWncgq3YijeS+/3Hl4mePvzXNwEMutHu6vUOe/OnQrQ8Wyaff2h0tr7tjEgJEEKaLH4yVmiz4hWGW6va+06ooS69r7jLz2xk5paeX7DwMoVORQJFz6epWY4KnpQ4Bc4AX8NxRr+rckCq/CGetZO6tyKQa/rj/rrIqGVoqGKED4QE1QVeofHsxHCnefCkmoQWRLpfzwrpDpEa9NW5mlbaNRz+pFXcphxAXsD8lPBcH7TuGO6SanYK6jiYbCk2zKjbYUXHJE+AylkLQQJJdYDLGtA=
+      secure: VqlXc4Fe1Bh6rxwVB0P9Bgg/hdDZ/DXhkTv1A+N4IeJsXGUftusz2tNaiDHJRtjfoDa+AD2i9ZHIH6xi6x/ZvtC0GGs0Fe3Z0SKPEgo7Vx+ppGKDVRNKeKaRXvat+BYicmVonUmdk9NIIQpmBNLiLpS/HqvX5BOjDRwqU7FtZczsWMDCncOaQJgO3VKonqzF0zwezW7+fCiKTG/SZNidaB1nf7UdKCaEuKw2k9SlB9EQEf6j7hQLzrFCSksYVFYbBwQxvn9w+dBDHK0EXkhzytPqFNYsWq+ikCBH/Lfu8+AY4znbjQTBe1365nVkUEINU87+IWxfLH+tp+OHE5RMktWLY5+nljGrkw81Hf6Grwdg063yo+3NkxAbpPDzPpPdiC3iyRVyg92TOa3QKVORbXdYJ85C0NeISKYxf7RKsQT5aYkTFCG99gdOHMZu6ancWsOfNf2am3XkIVv0wGWGg+Ewse/sDEFLSGvIV6iXHJbvcphML6X7G/P+dTrfK9dGWdkQ90GKuofshaxqJl+Ib8ofz5719PRPz2vnPsBXau4FQBeI5TuzrbuJEP1tPm5ZgdtJsjIAjBcAruEvMSlGOvZAJH/O9hWBvW8Nhite0bKq1U7PHaKgqZlHHUjj4hEGQUjpZYPfrrPgfmnUECY7g/Q/1q6Heijszl0aQ7lelco=
     on_success: always
     on_failure: always
     template:
