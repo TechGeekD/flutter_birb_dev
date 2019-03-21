@@ -29,6 +29,7 @@ notifications:
       secure: VqlXc4Fe1Bh6rxwVB0P9Bgg/hdDZ/DXhkTv1A+N4IeJsXGUftusz2tNaiDHJRtjfoDa+AD2i9ZHIH6xi6x/ZvtC0GGs0Fe3Z0SKPEgo7Vx+ppGKDVRNKeKaRXvat+BYicmVonUmdk9NIIQpmBNLiLpS/HqvX5BOjDRwqU7FtZczsWMDCncOaQJgO3VKonqzF0zwezW7+fCiKTG/SZNidaB1nf7UdKCaEuKw2k9SlB9EQEf6j7hQLzrFCSksYVFYbBwQxvn9w+dBDHK0EXkhzytPqFNYsWq+ikCBH/Lfu8+AY4znbjQTBe1365nVkUEINU87+IWxfLH+tp+OHE5RMktWLY5+nljGrkw81Hf6Grwdg063yo+3NkxAbpPDzPpPdiC3iyRVyg92TOa3QKVORbXdYJ85C0NeISKYxf7RKsQT5aYkTFCG99gdOHMZu6ancWsOfNf2am3XkIVv0wGWGg+Ewse/sDEFLSGvIV6iXHJbvcphML6X7G/P+dTrfK9dGWdkQ90GKuofshaxqJl+Ib8ofz5719PRPz2vnPsBXau4FQBeI5TuzrbuJEP1tPm5ZgdtJsjIAjBcAruEvMSlGOvZAJH/O9hWBvW8Nhite0bKq1U7PHaKgqZlHHUjj4hEGQUjpZYPfrrPgfmnUECY7g/Q/1q6Heijszl0aQ7lelco=
     on_success: always
     on_failure: always
+    on_start: always
     template:
       - "Repo `%{repository_slug}` *%{result}* build (<%{build_url}|#%{build_number}>) for commit (<%{compare_url}|%{commit}>) on branch `%{branch}`."
       - "Execution time: *%{duration}*"
