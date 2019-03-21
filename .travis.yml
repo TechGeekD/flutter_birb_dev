@@ -23,5 +23,13 @@ cache:
   directories:
   - $HOME/.pub-cache
 notifications:
+  email: false
   slack:
-    secure: $SLACK_NOTIFY
+    rooms:
+      - secure: $SLACK_NOTIFY
+    on_success: always
+    on_failure: always
+    template:
+      - "Repo `%{repository_slug}` *%{result}* build (<%{build_url}|#%{build_number}>) for commit (<%{compare_url}|%{commit}>) on branch `%{branch}`."
+      - "Execution time: *%{duration}*"
+      - "Message: %{message}"
