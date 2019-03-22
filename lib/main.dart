@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_birb/no_content.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -45,9 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Center(child: Text(widget.title)),
         elevation: 0.0,
       ),
-      body: Center(
-        child: const Text('No Birds Birbing'),
-      ),
+      body: const NoContent(),
     );
   }
 }
